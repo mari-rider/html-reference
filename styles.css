@@ -1,0 +1,46 @@
+body {
+    background: mistyrose;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: dimgray;
+}
+
+table {
+    height: 40%;
+    left: 10%;
+    margin: 20px auto;
+    position: static;
+    width: 50%;
+}
+
+thead th {
+    background: white;
+    color: darkgoldenrod;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    border-radius: 10px;
+}
+
+tr {
+    background: white;
+}
+
+th, td {
+    font-size: 16px;
+    font-family: 'serif';
+    text-align: center;
+    color: grey;
+    border-radius: 10px;
+}
+
+.code {
+    font-family: monospace;
+    font-size: 14px;
+}
+

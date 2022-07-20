@@ -1,27 +1,42 @@
+@font-face {
+    font-family: 'Made Gentle';
+    src: url(font/made-gentle.otf);
+}
 body {
     background: mistyrose;
     margin: 0;
     padding: 0;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
-h1, h2 {
-    font-family: 'Times New Roman', Times, serif;
+img {
+    width: 20%;
+    margin: auto 45% auto 40%;
+}
+
+
+h2 {
+    font-family: 'Made Gentle';
     text-align: center;
-    color: dimgray;
+    color: #545454;
+    margin-top: auto;
+    text-transform: lowercase;
+    padding-top: 5%;
 }
 
-table {
-    height: 40%;
-    left: 10%;
-    margin: 20px auto;
+.table {
+    height: 20%;
+    margin: auto;
     position: static;
-    width: 50%;
+    width: fit-content;
 }
+
 
 thead th {
     background: white;
     color: darkgoldenrod;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Helvetica, sans-serif;
     font-weight: 100;
     letter-spacing: 1px;
     border-radius: 10px;
@@ -29,11 +44,13 @@ thead th {
 
 tr {
     background: white;
+    margin: 100px;
 }
 
 th, td {
     font-size: 16px;
-    font-family: 'serif';
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
     text-align: center;
     color: grey;
     border-radius: 10px;
@@ -44,3 +61,28 @@ th, td {
     font-size: 14px;
 }
 
+footer {
+    display: flex;
+    text-align: center;
+    background-color: white;
+    line-height: 0.5;
+    margin: auto;
+    padding: 1px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+
+}
+
+footer .content {
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    color: #545454;
+    text-transform: lowercase;
+    flex-grow: 1;
+    padding-bottom: 0%;
+}
+
+footer .author {
+    font-family: 'Made Gentle', sans-serif;
+}
